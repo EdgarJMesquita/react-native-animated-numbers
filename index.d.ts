@@ -10,6 +10,6 @@ export interface Props {
   easing?: Animated.EasingNodeFunction
 }
 
-declare const AnimatedNumber: React.SFC<Props>
+declare const AnimatedNumber: React.FC<Props>
 
 export default AnimatedNumber
