@@ -23,6 +23,7 @@ const AnimatedNumber = ({
 	animationDuration,
 	includeComma,
 	easing,
+	zeros = 1
 }) => {
 	const prevNumber = usePrevious(animateToNumber);
 	const animateToNumberString = String(Math.abs(animateToNumber));
@@ -143,7 +144,7 @@ const AnimatedNumber = ({
 				style={[fontStyle, { position: 'absolute', top: -999999 }]}
 				onLayout={setButtonLayout}
 			>
-				{0}
+				{'0'.repeat(zeros)}
 			</Text>
 		</>
 	);
