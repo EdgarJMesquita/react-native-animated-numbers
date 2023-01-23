@@ -8,7 +8,6 @@ export interface Props {
   animationDuration?: number
   includeComma?: boolean
   easing?: Animated.EasingNodeFunction
-  zeros?: number
 }
 
 declare const AnimatedNumber: React.FC<Props>

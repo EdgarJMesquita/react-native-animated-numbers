@@ -38,9 +38,5 @@
   "devDependencies": {
     "eslint": "^7.4.0",
     "eslint-plugin-react": "^7.20.3"
-  },
-  "dependencies": {
-    "react-native-reanimated": "^2.2.4",
-    "react-native-gesture-handler": "^1.10.3"
   }
 }
